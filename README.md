@@ -1,311 +1,145 @@
-# OSS Capstone Project – VLC Media Player Audit
+OSS Audit — MySQL
+Open Source Software (OSS NGMC) Capstone Project
+
+License Bash Platform Database Course
+
+Field	Details
+Student Name	SHIVRAJ SINGH CHOUHAN
+Registration Number	24MEI10021
+University	VIT Bhopal University
+Chosen Software	MySQL
+Licence	GPL v2 (Community) / Commercial (Enterprise)
+Course	Open Source Software (OSS NGMC)
+About This Repository
+This repository contains the five shell scripts submitted as part of The Open Source Audit project.
+
+For this project, I chose MySQL as the software to audit. Born in 1995 from a practical need for a free, fast database, MySQL became the 'M' in the LAMP stack and powered the first generation of the open web. It is dual-licensed under GPL v2 for community use and a commercial licence for proprietary integration.
 
-## Student Information
-
-**Name:** Shivraj Singh Chouhan
-**Registration Number:** 24MEI10021
-**Slot:** F11
-**Course:** Open Source Software (OSS)
-**Date of Submission:** 31 March 2026
-
----
-
-# Project Title
-
-**Open Source Software Audit using VLC Media Player**
-
----
-
-# Project Overview
-
-This repository contains the implementation of the **Open Source Software (OSS) Capstone Project**.
-The goal of this project is to explore the philosophy of open-source software and apply Linux shell scripting to audit and analyze an open-source application.
-
-For this project, **VLC Media Player** was selected because it is one of the most successful and widely used open-source multimedia players. The project demonstrates how Linux scripts can automate system inspection tasks such as checking installed packages, auditing directories, analyzing logs, and generating open-source documentation.
-
----
-
-# About VLC Media Player
-
-VLC Media Player is a **free and open-source multimedia player** developed by the VideoLAN project. It can play almost any multimedia file format without requiring additional codec packs.
-
-### Key characteristics of VLC
-
-* Completely free and open-source
-* Supports almost all video and audio formats
-* No spyware, ads, or tracking
-* Cross-platform compatibility
-* Highly customizable
-* Strong community support
-
-### Platforms Supported
-
-* Linux
-* Windows
-* macOS
-* Android
-* iOS
-
----
-
-# Objectives of the Project
-
-The main objectives of this project are:
-
-1. Understand the principles of **open source software development**
-2. Study the architecture and installation of VLC Media Player
-3. Develop **Linux shell scripts** for system auditing
-4. Automate system inspection tasks
-5. Demonstrate practical usage of Linux commands
-6. Document the results in a structured project report
-
----
-
-# Features of the Project
-
-This project includes several automated scripts that perform system auditing tasks:
-
-✔ System information retrieval
-✔ VLC installation verification
-✔ Directory permission auditing
-✔ Log file analysis
-✔ Open-source manifesto generation
-
-These scripts demonstrate the power of **Linux shell scripting in system administration and software auditing**.
-
----
-
-# Technologies Used
-
-The following technologies were used to develop this project:
-
-* Linux Operating System
-* Bash Shell Scripting
-* VLC Media Player
-* Git
-* GitHub
-* Terminal / Command Line Interface
-
----
-
-# Project Repository Structure
-
-OSS-VLC-Audit-Scripts
-│
-├── script1_vlc_system_identity.sh
-├── script2_vlc_package_inspector.sh
-├── script3_vlc_disk_permission_audit.sh
-├── script4_vlc_log_analyzer.sh
-├── script5_vlc_manifesto_generator.sh
-│
-├── README.md
-└── OSS_VLC_Audit_Report.pdf
-
----
-
-# Description of Scripts
-
-## Script 1 – System Identity Script
-
-**File:** `script1_vlc_system_identity.sh`
-
-This script retrieves and displays basic system information.
-
-### Functions
-
-* Displays operating system information
-* Shows kernel version
-* Displays current logged-in user
-* Shows system uptime
-* Prints current date and time
-* Displays a short open-source insight about VLC
-
----
-
-## Script 2 – VLC Package Inspector
-
-**File:** `script2_vlc_package_inspector.sh`
-
-This script checks whether VLC Media Player is installed on the system.
-
-### Functions
-
-* Detects VLC installation
-* Displays installed version
-* Shows package information
-
----
-
-## Script 3 – Disk and Permission Auditor
-
-**File:** `script3_vlc_disk_permission_audit.sh`
-
-This script audits directories related to the Linux system.
-
-### Functions
-
-* Checks directory permissions
-* Displays owner information
-* Shows disk usage statistics
-
-Directories analyzed include:
-
-* `/usr/bin`
-* `/usr/lib/vlc`
-* `/etc`
-* `/tmp`
-
----
-
-## Script 4 – Log File Analyzer
-
-**File:** `script4_vlc_log_analyzer.sh`
-
-This script scans Linux system logs to detect VLC related activity.
-
-### Functions
-
-* Searches log files for VLC entries
-* Counts occurrences
-* Displays recent log entries
-
----
-
-## Script 5 – Open Source Manifesto Generator
-
-**File:** `script5_vlc_manifesto_generator.sh`
-
-This script generates a text file containing a small manifesto supporting open-source software.
-
-### Manifesto Includes
-
-* Author information
-* Registration number
-* Current date
-* Message supporting open-source development
-
----
-
-# Installation Guide
-
-Follow these steps to set up the project.
-
-### Step 1 – Install VLC Media Player
-
-Ubuntu/Debian:
-
-sudo apt install vlc
-
----
-
-### Step 2 – Clone the Repository
-
-git clone https://github.com/Msdshiva/oss-audit-24MEI10021.git
-
----
-
-### Step 3 – Navigate to Project Folder
-
-cd OSS-VLC-Audit-Scripts
-
----
-
-### Step 4 – Make Scripts Executable
-
-chmod +x *.sh
-
----
-
-### Step 5 – Run the Scripts
-
-./script1_vlc_system_identity.sh
-./script2_vlc_package_inspector.sh
-./script3_vlc_disk_permission_audit.sh
-./script4_vlc_log_analyzer.sh
-./script5_vlc_manifesto_generator.sh
-
----
-
-# Screenshots
-
-Screenshots of the script outputs are included in the **Project Report document**.
-
-These screenshots demonstrate:
-
-* Execution of each script
-* Terminal outputs
-* System auditing results
-
----
-
-# Advantages of Using Open Source Software
-
-Open source software provides several advantages:
-
-* Transparency
-* Security
-* Community collaboration
-* Cost effectiveness
-* Customizability
-
-VLC Media Player is a strong example of successful open-source development.
-
----
-
-# Learning Outcomes
-
-Through this project, the following concepts were learned:
-
-* Open source software principles
-* Linux command line operations
-* Bash scripting
-* System auditing techniques
-* GitHub repository management
-
----
-
-# Future Improvements
-
-This project can be extended further by:
-
-* Adding automated installation scripts
-* Monitoring VLC processes in real time
-* Creating a graphical dashboard
-* Generating detailed system reports
-
----
-
-# Acknowledgements
-
-This project was completed as part of the **Open Source Software Capstone Course**.
-
-Special thanks to:
-
-* The VideoLAN community for developing VLC Media Player
-* Open-source contributors worldwide
-* Course instructors for guidance and support
-
----
-
-# References
-
-1. https://www.videolan.org/vlc/
-2. https://www.gnu.org/licenses/gpl-3.0.en.html
-3. Linux Command Line Documentation
-
----
-
-# License
-
-This project is released for **educational and learning purposes** as part of the OSS Capstone Course.
-
-Users are free to modify and reuse the scripts for educational use.
-
----
-
-# Author
-
-**Shivraj Singh Chouhan**
-Registration Number: 24MEI10021
-Slot: F11
-Open Source Software Capstone Project
+Repository Structure
+oss-audit-24MEI10021/
+├── README.md                          # This file
+├── script1_system_identity.sh         # System Identity Report
+├── script2_package_inspector.sh       # FOSS Package Inspector
+├── script3_disk_auditor.sh            # Disk and Permission Auditor
+├── script4_log_analyzer.sh            # Log File Analyzer
+└── script5_manifesto_generator.sh     # Open Source Manifesto Generator
+Scripts Overview
+Script 1 — System Identity Report (script1_system_identity.sh)
+Bash Type Tools
+
+This script gives a clean welcome screen that shows the Linux distribution, kernel version, logged-in user, home directory, system uptime, current date and time, and the open-source licence covering the OS kernel.
+
+Concepts: Variables, echo, command substitution $(), uname, whoami, uptime, date, /etc/os-release parsing.
+
+Script 2 — FOSS Package Inspector (script2_package_inspector.sh)
+Bash Type Managers
+
+This script checks whether MySQL (or any specified package) is installed on the system. It then shows version and licence metadata using dpkg or rpm, and uses a case statement to print a philosophy note about the selected package.
+
+Concepts: if-then-else, case statement, dpkg -s / rpm -qi, pipe with grep, exit codes, command-line arguments.
+
+Script 3 — Disk and Permission Auditor (script3_disk_auditor.sh)
+Bash Type Tools
+
+Goes through key Linux system directories and MySQL-specific directories.
+Reports permissions, owner, group, and disk usage for each one.
+Checks for MySQL configuration files.
+Concepts: for loop over arrays, ls -ld, du -sh, awk for field extraction, conditional directory existence checks, df for filesystem summary.
+
+Script 4 — Log File Analyzer (script4_log_analyzer.sh)
+Bash Type Tools
+
+This script reads a log file line by line, counts how many times a keyword appears (default: error), shows the match percentage, and displays the last 5 matching lines.
+
+Concepts: while IFS= read -r loop, if-then inside loop, counter arithmetic $(()), command-line arguments $1 and $2, grep -i + tail pipeline, file validation.
+
+Script 5 — Open Source Manifesto Generator (script5_manifesto_generator.sh)
+Bash Type Output
+
+This script asks the user three questions and then generates a open source philosophy statement. The questions are:
+
+"Name one open-source tool you use every day"
+"In one word, what does 'freedom' mean to you?"
+"Name one thing you would build and share freely" It saves the output to a .txt file and displays it on screen.
+Concepts: read for interactive input, input validation loop, string concatenation, file output with > and >>, date command, whoami substitution, cat to display file, alias concept (demonstrated via comments).
+
+How to Run Each Script on Linux
+Prerequisites
+A Linux system (Ubuntu 22.04 LTS recommended, or any Debian/RHEL-based distribution)
+Bash shell (pre-installed on all Linux systems)
+MySQL installed for Scripts 2 and 3 to show full output (optional — scripts handle the not-installed case)
+Step 1: Clone the Repository
+git clone https://github.com/Msdshiva/oss-audit-24MEI10021
+Step 2: Make All Scripts Executable
+chmod +x script1_system_identity.sh
+chmod +x script2_package_inspector.sh
+chmod +x script3_disk_auditor.sh
+chmod +x script4_log_analyzer.sh
+chmod +x script5_manifesto_generator.sh
+Step 3: Run Each Script
+Script 1 — System Identity Report
+
+./script1_system_identity.sh
+Script 2 — FOSS Package Inspector
+
+# Inspect MySQL (default)
+./script2_package_inspector.sh
+
+# Inspect a specific package
+./script2_package_inspector.sh mysql-server
+./script2_package_inspector.sh firefox
+./script2_package_inspector.sh git
+Script 3 — Disk and Permission Auditor
+
+./script3_disk_auditor.sh
+Note: Some directories (e.g. /var/lib/mysql) may require sudo to show accurate sizes.
+
+sudo ./script3_disk_auditor.sh
+Script 4 — Log File Analyzer
+
+# Analyse syslog for errors (requires sudo )
+sudo ./script4_log_analyzer.sh /var/log/syslog error
+
+# Analyse MySQL error log
+sudo ./script4_log_analyzer.sh /var/log/mysql/error.log error
+
+# Analyse auth log for failed logins
+sudo ./script4_log_analyzer.sh /var/log/auth.log Failed
+
+# Use any log file with any keyword
+./script4_log_analyzer.sh /path/to/logfile keyword
+Script 5 — Open Source Manifesto Generator
+
+./script5_manifesto_generator.sh
+The script will prompt you with three interactive questions. Your manifesto is saved to manifesto_[username].txt in the current directory ([username] is your login name).
+
+Dependencies
+Script	Dependencies
+Script 1	bash, uname, whoami, uptime, date, /etc/os-release
+Script 2	bash, dpkg (Debian/Ubuntu) OR rpm (RHEL/CentOS)
+Script 3	bash, ls, du, df, awk
+Script 4	bash, grep, wc, tail
+Script 5	bash, date, whoami, cat
+All dependencies are pre-installed on any standard Linux system.
+
+Installing MySQL (for full Script 2 and 3 output)
+# Ubuntu/Debian
+sudo apt update && sudo apt install mysql-server -y
+
+# RHEL/CentOS/Fedora
+sudo dnf install mysql-server -y
+
+# Verify installation
+mysql --version
+sudo systemctl status mysql
+Reference Resources
+MySQL Reference Manual: https://dev.mysql.com/doc/refman/8.0/en/
+GNU Free Software Definition: https://gnu.org/philosophy/free-sw.html
+MySQL Source Code: https://github.com/mysql/mysql-server
+GPL v2 Licence Text: https://spdx.org/licenses/GPL-2.0-only.html
+MariaDB Foundation: https://mariadb.org/about/
+Created by: 24MEI10021
+University: VIT Bhopal University
+Year: 2026
+
+This repository has been created as part of the Open Source Software (OSS NGMC) project at VIT Bhopal University. All scripts and documentation in this repository are authored by SHIVRAJ SINGH CHOUHAN (Registration: 24MEI10021).
