@@ -1,8 +1,8 @@
 #!/bin/bash
 # ============================================================
 # Script 5: Open Source Manifesto Generator
-# Author   : Tanmay Joshi
-# Reg No   : 24BCE10381
+# Author   : SHIVRAJ SINGH CHOUHAN
+# Reg No   : 24MEI10021
 # Course   : Open Source Software (OSS NGMC)
 # Chosen   : MySQL
 # Purpose  : Interactively collects answers from the user and
