@@ -200,7 +200,7 @@ sudo apt install vlc
 
 ### Step 2 – Clone the Repository
 
-git clone https://github.com/Msdshiva/OSS-VLC-Audit-Scripts.git
+git clone https://github.com/Msdshiva/oss-audit-24MEI10021.git
 
 ---
 
