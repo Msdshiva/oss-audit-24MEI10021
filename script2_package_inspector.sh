@@ -1,8 +1,8 @@
 #!/bin/bash
 # ============================================================
 # Script 2: FOSS Package Inspector
-# Author   : Tanmay Joshi
-# Reg No   : 24BCE10381
+# Author   : SHIVRAJ SINGH CHOUHAN
+# Reg No   : 24MEI10021
 # Course   : Open Source Software (OSS NGMC)
 # Chosen   : MySQL
 # Purpose  : Checks whether the chosen open-source package is
